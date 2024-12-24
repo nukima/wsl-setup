@@ -8,7 +8,7 @@ source ./scripts/utils.sh
 
 # Add your data
 echo_info "Add your data:"
-nano ./scripts/user.sh
+cat ./scripts/user.sh
 source ./scripts/user.sh
 
 # Install applications
@@ -18,7 +18,7 @@ bash ./scripts/apps.sh
 bash ./scripts/dotfiles.sh
 
 # Node.js and npm settings
-bash ./scripts/npm.sh
+# bash ./scripts/npm.sh
 
 # Generate SSH key
 if [[ $SSH_EMAIL ]]; then

@@ -20,7 +20,7 @@ git clone https://github.com/zsh-users/zsh-completions ~/.oh-my-zsh/custom/plugi
 git clone https://github.com/z-shell/F-Sy-H.git ~/.oh-my-zsh/custom/plugins/F-Sy-H
 
 # Install asdf
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf
+# git clone https://github.com/asdf-vm/asdf.git ~/.asdf
 
 # Move permanent files to Home directory
 replace "./scripts/.zshrc" ".zshrc"
