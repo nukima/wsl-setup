@@ -41,7 +41,7 @@ After restarting, launch `Ubuntu.exe` from the _Start Menu_. You’ll be asked t
 If you already have `Windows` and `WSL` installed, run these commands in `WSL`:
 
 ```
-git clone https://github.com/samuelramox/wsl-setup.git
+git clone https://github.com/nukima/wsl-setup.git
 chmod 700 wsl-setup/ -R
 cd wsl-setup
 ./setup.sh

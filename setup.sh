@@ -26,8 +26,8 @@ if [[ $SSH_EMAIL ]]; then
 fi
 
 # Create a directory for projects and development
-echo_info "Creating Developer directory in Home directory..."
-mkdir ${HOME}/Developer ${HOME}/Developer
+# echo_info "Creating Developer directory in Home directory..."
+# mkdir ${HOME}/Developer ${HOME}/Developer
 
 # Cleanup cached downloads and remove the installation zip and folder
 echo_info "Removing unnecessary files..."
